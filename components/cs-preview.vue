@@ -16,6 +16,7 @@ onMounted(() => {
       clientUrlParams: {
         host: "eu-app.contentstack.com",
       },
+      stackSdk: $stack,
       stackDetails: {
         apiKey: $stack.config.apiKey,
         environment: "development",

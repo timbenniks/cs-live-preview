@@ -11,11 +11,11 @@ const result = await $stack
   .where("url", QueryOperation.EQUALS, "/")
   .find();
 
-$stack.livePreviewQuery({
-  contentTypeUid: "page",
-  entryUid: "blt41315565c6fbd337",
-  live_preview: "init",
-});
+// $stack.livePreviewQuery({
+//   contentTypeUid: "page",
+//   entryUid: "blt41315565c6fbd337",
+//   live_preview: "init",
+// });
 
 onMounted(() => {
   if ($preview) {
