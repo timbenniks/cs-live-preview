@@ -5,11 +5,10 @@ const transpiles = isProd ? ['tslib', '@contentstack/delivery-sdk'] : []
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
-
+  ssr: false,
   build: {
     transpile: transpiles,
   },
-
 
   runtimeConfig: {
     public: {

@@ -1,9 +1,9 @@
 <script setup>
 import ContentstackLivePreview from "@contentstack/live-preview-utils";
 
-const { $stack, $preview } = useNuxtApp();
-
 onMounted(() => {
+  const { $stack, $preview } = useNuxtApp();
+
   if ($preview) {
     ContentstackLivePreview.init({
       ssr: false,
