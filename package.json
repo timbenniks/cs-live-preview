@@ -13,7 +13,6 @@
     "@contentstack/delivery-sdk": "^4.2.0",
     "@contentstack/live-preview-utils": "1.4.4",
     "nuxt": "^3.13.0",
-    "nuxt-security": "^2.0.0-rc.9",
     "vue": "latest",
     "vue-router": "latest"
   }
